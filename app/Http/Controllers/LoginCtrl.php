@@ -8,7 +8,7 @@ class LoginCtrl extends Controller
 {
 
     public function checkLogin() {
-        return Login::getPwdById(100);
+        return Login::getPwdById();
     }
 
     /**

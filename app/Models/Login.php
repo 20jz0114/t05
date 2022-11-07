@@ -10,9 +10,9 @@ class Login extends Model
 {
     use HasFactory;
 
-    public static function getPwdById($id){
+    public static function getPwdById(){
 
-        return $pwd = DB::select('Select pwd From LOGIN_VIEW where id = '.$id);
+        return $pwd = DB::select('Select pwd From LOGIN_VIEW where id = `12345`');
     }
 
 }
